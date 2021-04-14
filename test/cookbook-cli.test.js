@@ -1,7 +1,7 @@
-const { CookBook } = require('../src/cookbook');
-const { CookBookCli } = require('../src/cookbook-cli');
+const { Cookbook } = require('../src/cookbook');
+const { CookbookCli } = require('../src/cookbook-cli');
 
-describe('CookBookCli', () => {
+describe('CookbookCli', () => {
   describe('Adding recipes', () => {
     it('should accept the recipe information and display the correct message', () => {
 

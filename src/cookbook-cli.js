@@ -1,6 +1,6 @@
-const { CookBook } = require('./cookbook');
+const { Cookbook } = require('./cookbook');
 
-class CookBookCli {
+class CookbookCli {
   constructor(cookbook) {
     this.cookbook = cookbook;
   }
@@ -34,4 +34,4 @@ class CookBookCli {
   }
 }
 
-module.exports = { CookBookCli };
+module.exports = { CookbookCli };

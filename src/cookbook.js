@@ -1,4 +1,4 @@
-class CookBook {
+class Cookbook {
   constructor() {
     this.recipes = {};
   }
@@ -20,4 +20,4 @@ class CookBook {
   }
 }
 
-module.exports = { CookBook };
+module.exports = { Cookbook };

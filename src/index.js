@@ -1,7 +1,7 @@
-const { CookBookCli } = require('./cookbook-cli');
-const { CookBook } = require('./cookbook');
+const { CookbookCli } = require('./cookbook-cli');
+const { Cookbook } = require('./cookbook');
 
 const ARGS = process.argv.slice(2);
 const [command, name, ingredients] = ARGS;
 
-console.log(new CookBookCli(new CookBook()).run(command, name, ingredients));
+console.log(new CookbookCli(new Cookbook()).run(command, name, ingredients));

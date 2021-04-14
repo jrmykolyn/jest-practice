@@ -1,6 +1,6 @@
-const { CookBook } = require('../src/cookbook');
+const { Cookbook } = require('../src/cookbook');
 
-describe('CookBook', () => {
+describe('Cookbook', () => {
   describe('Adding recipes', () => {
     it('should allow a recipe to be added', () => {
 
