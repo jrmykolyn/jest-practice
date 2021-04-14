@@ -21,7 +21,7 @@ You must also have Node installed on your local system. See the resources sectio
 At a minimum, your submission should include the following:
 - Passing implementations of the tests defined within the `test/cookbook.test.js` file.
 - Passing implementations of the tests defined within the `test/cookbook-cli.test.js` file.
-- Integration tests for the `CookbookCli` to ensure that it is correctly interacting with the underlying `Cookbook`. These tests have not been defined _or_ implemented.
+- Integration tests for the `CookbookCli` to ensure that it is correctly interacting with the underlying `Cookbook`. These tests have not been defined _or_ implemented. This means that you must figure out what the tests cases should be _and_ how to implement them.
 
 ## Stretch Goals
 If you are interested in going above-and-beyond the minimum requirements of the assignment, try implementing one or more of the stretch goals outlined below:
@@ -43,8 +43,8 @@ As usual, you are free to approach this exercise however you see fit. If you wou
 - Manually test/explore the CLI by interacting with the `index.js` file.
 - Review the test cases defined in the `cookbook-cli.test.js` and `cookbook.test.js` files. Are the test cases clear? Do you understand their intentions?
 - When you're ready to begin, install the project's dependencies (including Jest) by running the following command from the root of the repository: `npm install`.
-- Confirm that you can run successfully execute the tests by running the following command: `npm run test`. Although you haven't actually written any tests yet, you should see a success message in your terminal application.
-- Pick one of the test files and, starting from the top of the file, implement each of the tests. Make sure to _run_ the tests each time you implement a new test cases. Getting frequent feedback helps to identify errors early.
+- Confirm that you can successfully execute the tests by running the following command: `npm run test`. Although you haven't actually written any tests yet, you should see a success message in your terminal application.
+- Pick one of the test files and implement each of the tests cases within. Make sure to _run_ the tests each time you implement a new test case. Getting frequent feedback helps to identify errors early.
 - Commit frequently (for example: each time you successfully implement a new test case). Having a Git history made up of many small commits makes it easy to step backwards in cases where something goes wrong.
 
 ## Resources
