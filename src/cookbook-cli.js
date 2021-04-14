@@ -1,8 +1,8 @@
 const { CookBook } = require('./cookbook');
 
 class CookBookCli {
-  constructor() {
-    this.cookbook = new CookBook();
+  constructor(cookbook) {
+    this.cookbook = cookbook;
   }
 
   run(command, ...args) {
