@@ -35,7 +35,7 @@ If you are interested in going above-and-beyond the minimum requirements of the 
 - Fork this repository to your personal GitHub account.
 
 ## Approach
-This exercise focuses primarily on testing, but each of the stretch goals requires an update to the implementation code as well.
+This exercise focuses primarily on testing, but each of the stretch goals requires an update to the source code as well (ie. the `cookbook.js` and/or `cookbook-cli.js` files).
 
 As usual, you are free to approach this exercise however you see fit. If you would like some additional help, feel free to use the following approach:
 
