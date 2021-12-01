@@ -27,7 +27,7 @@ At a minimum, your submission should include the following:
 If you are interested in going above-and-beyond the minimum requirements of the assignment, try implementing one or more of the stretch goals outlined below:
 
 1. Update the `CookbookCli` to return a special message when the cookbook does not include any recipes. This update should be accompanied by a test. The message should be clear and descriptive, but the content is up to you.
-2. Update the `CookbookCli` to display a warning message when the user attempts to add a recipe that already exists. This update should should be accompanied by a test. The message should be clear and descriptive, but the content is up to you.
+2. Update the `CookbookCli` to display a warning message when the user attempts to add a recipe that already exists. This update should be accompanied by a test. The message should be clear and descriptive, but the content is up to you.
 2. Update the `CookbookCli` to display a warning message when the user attempts to retrieve a recipe that does not exist. This update should should be accompanied by a test. The message should be clear and descriptive, but the content is up to you.
 2. Update the `CookbookCli` to display a warning message when the user attempts to delete a recipe that does not exist. This update should should be accompanied by a test. The message should be clear and descriptive, but the content is up to you.
 
