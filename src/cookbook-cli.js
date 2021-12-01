@@ -1,5 +1,3 @@
-const { Cookbook } = require('./cookbook');
-
 class CookbookCli {
   constructor(cookbook) {
     this.cookbook = cookbook;
