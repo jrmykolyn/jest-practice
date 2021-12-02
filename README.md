@@ -21,15 +21,15 @@ You must also have Node installed on your local system. See the resources sectio
 At a minimum, your submission should include the following:
 - Passing implementations of the tests defined within the `test/cookbook.test.js` file.
 - Passing implementations of the tests defined within the `test/cookbook-cli.test.js` file.
-- Integration tests for the `CookbookCli` to ensure that it is correctly interacting with the underlying `Cookbook`. These tests have not been defined _or_ implemented. This means that you must figure out what the tests cases should be _and_ how to implement them.
 
 ## Stretch Goals
 If you are interested in going above-and-beyond the minimum requirements of the assignment, try implementing one or more of the stretch goals outlined below:
 
-1. Update the `CookbookCli` to return a special message when the cookbook does not include any recipes. This update should be accompanied by a test. The message should be clear and descriptive, but the content is up to you.
-2. Update the `CookbookCli` to display a warning message when the user attempts to add a recipe that already exists. This update should be accompanied by a test. The message should be clear and descriptive, but the content is up to you.
-2. Update the `CookbookCli` to display a warning message when the user attempts to retrieve a recipe that does not exist. This update should should be accompanied by a test. The message should be clear and descriptive, but the content is up to you.
-2. Update the `CookbookCli` to display a warning message when the user attempts to delete a recipe that does not exist. This update should should be accompanied by a test. The message should be clear and descriptive, but the content is up to you.
+1. Integration tests for the `CookbookCli` to ensure that it is correctly interacting with the underlying `Cookbook`. These tests have not been defined _or_ implemented. This means that you must figure out what the tests cases should be _and_ how to implement them.
+2. Update the `CookbookCli` to return a special message when the cookbook does not include any recipes. This update should be accompanied by a test. The message should be clear and descriptive, but the content is up to you.
+3. Update the `CookbookCli` to display a warning message when the user attempts to add a recipe that already exists. This update should be accompanied by a test. The message should be clear and descriptive, but the content is up to you.
+4. Update the `CookbookCli` to display a warning message when the user attempts to retrieve a recipe that does not exist. This update should should be accompanied by a test. The message should be clear and descriptive, but the content is up to you.
+5. Update the `CookbookCli` to display a warning message when the user attempts to delete a recipe that does not exist. This update should should be accompanied by a test. The message should be clear and descriptive, but the content is up to you.
 
 ## Before You Begin
 - Fork this repository to your personal GitHub account.
